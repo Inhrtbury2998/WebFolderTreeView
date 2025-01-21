@@ -1,0 +1,17 @@
+.folder {
+    cursor: pointer;
+}
+.folder-content {
+    display: none;
+}
+.file,.folder {
+    padding: 3px 0px 3px 15px;
+}
+.folder:before {
+    content: "📁";
+    margin-right: 5px;
+}
+.file:before {
+    content: "📄";
+    margin-right: 5px;
+}
